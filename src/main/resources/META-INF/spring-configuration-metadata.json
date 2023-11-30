@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "name": "discord",
+      "type": "dev.jaczerob.discord.DiscordProperties",
+      "sourceType": "dev.jaczerob.discord.DiscordProperties",
+      "description": "Properties for Discord"
+    }
+  ],
+  "properties": [
+    {
+      "name": "discord.token",
+      "type": "java.lang.String",
+      "sourceType": "dev.jaczerob.discord.DiscordProperties",
+      "description": "The token of the bot"
+    },
+    {
+      "name": "discord.guildId",
+      "type": "java.lang.Long",
+      "sourceType": "dev.jaczerob.discord.DiscordProperties",
+      "description": "The ID of the guild to use for the bot"
+    },
+    {
+      "name": "discord.intents",
+      "type": "net.dv8tion.jda.api.requests.GatewayIntent",
+      "sourceType": "dev.jaczerob.discord.DiscordProperties",
+      "description": "The intents to use for the bot"
+    }
+  ]
+}
